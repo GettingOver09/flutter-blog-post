@@ -1,4 +1,4 @@
-﻿IT15 – INTEGRATIVE PROGRAMMING AND TECHNOLOGIES
+﻿IT15L (6590) – INTEGRATIVE PROGRAMMING AND TECHNOLOGIES
 
 Final Project
 
@@ -9,6 +9,9 @@ Members:
 Andy R. Abanto Jr.
 Bostjan Zymmer Rogero
 Jan Wayne Sepe
+
+Instructor:
+Sir Lester Pafin
 
 MarkDown file.
 March 2024
