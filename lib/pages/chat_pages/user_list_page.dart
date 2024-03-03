@@ -103,6 +103,7 @@ class _UserListPageState extends State<UserListPage> {
               hintTextColor: Theme.of(context).colorScheme.tertiary,
               iconColor: Theme.of(context).colorScheme.tertiary,
               cursorColor: Theme.of(context).colorScheme.tertiary,
+              textColor: Theme.of(context).colorScheme.tertiary,
               onChanged: (_) => setState(() {}),
               suffixIcon: IconButton(
                 icon: Icon(
