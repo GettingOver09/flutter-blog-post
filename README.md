@@ -147,32 +147,13 @@ A dialog box appears to confirm the user to log out.
 Tap on ‘Continue’ to proceed, otherwise tap on ‘Cancel’.
 This will direct the user to the login page.
 
-readme.md
-Registered users can create blog posts. Users must have an image, a title, and the description to post.
-Users can edit their post content.
-Users can delete their post.
-Users can interact with each other by leaving a like on one of the posts, or to leave a comment.
-Text messaging ang chats are utilized with Google Firebase Database - Chat Services.
-Security is within Google Firebase Database for storing blog posts, images, users, and messages.
-Theme is in orange by default, the theme color can be changed when enabling dark mode on the phone’ setting.
-Text messaging can also upload photos in chats.
-Text messaging chats including group chats has a text to speech plugin. Tap on every message to speak the message for you.
-Text to speech does not work on photos sent on every user.  
-Creating group chats is possible, group chat creator automatically assigned as admin. Add registered users in your group chat.
-Weather API is integrated into the app for weather updates in the city [Davao city].
 
-Features checklist:
-User Authentication and Authorization: Handled by Firebase Authentication
-Real-time messaging: Handled by Firebase Cloud Firestore - Chat services
-Group chats: Able to create and manage group chats
-Integration with External API:
-Internal: Utilizing Firebase services for fetching, and management of data.
-External: Open Weather API [openweathermap.org]
-Notifications: Triggered within the app itself in both chats. No real-time push notifications integrated in the app but only local notifications.
-Search functionality: Users can search for registered users for messaging.
-Profile management: Handled by Firebase Realtime Database, users can change their profile picture, their bio, and their username but not their email address.
-Security: All are handled by Firebase services. Passwords only accept 6-15 characters.
-User experience: Default theme can only be changed by the user's device by enabling global dark mode. For older android devices where some do not have a dark mode feature, only displays with the default orange theme.
-Page theme for weather updates changes in varied weather conditions.
-Weather temperature updates rapidly every minute.
-Theme colors exclusively apply to this page, and not on the whole application’s interface. (This also applies to devices with dark mode.)
+Known limitations and flaws:
+Flaw - Default theme when searching for registered users in chat does not display the written text. Shows up when host device uses dark mode,.
+Flaw - No push notifications are installed in the app. Local notifications  show up frequently when opening the recipients chat room when the host user recieves a message recently.
+Flaw - Notifications only trigger within the chat room page and the group chat page. Disadvantage of using local notifications. 
+Limitation - Viewing photos sent on chats cannot show images in full view. Instead, the sent image is shown in full view in chat bubbles anyway, even if it's a very high resolution photo.
+Limitation - default Theme is not customizable, dark theme only works when the host's device is in dark mode. 
+Limitation - Changes of page themes is limited to the weather page, and will not change the overall theme color of the app. 
+Limitation - Cannot send videos or other files, just images. Otherwise, the sent file is rendered useless for access. (You cannot download the file to use it, or cannot watch the sent video.)
+
