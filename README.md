@@ -10,6 +10,17 @@ Andy R. Abanto Jr.
 Bostjan Zymmer Rogero
 Jan Wayne Sepe
 
+Contributions:
+Andy - Plugins: tts, local notifications in a component file, low profile analyzer and debugger. Documentation and presentation initiator. -10%
+
+Jan Wayne -  The whole frontend and backend of the app including firebase services, realtime database and cloud firestore chat services..., debugger, superuser, Project initiator. -80%
+
+Bostjan - API host integrator, documentation. -10%
+
+
+
+
+
 Instructor:
 Sir Lester Pafin
 
@@ -19,7 +30,8 @@ March 2024
 
 
 Project Overview:
-The Messenger app is designed as a communication platform with integrated blogging features. Its primary purpose is to facilitate text messaging, group chats, and blog post creation for registered users. The target audience includes individuals who seek a versatile messaging platform with the ability to share thoughts, interact with others, and stay updated on local weather.
+The Messenger app is designed as a communication platform with integrated blogging features. Its primary purpose is to facilitate text messaging, group chats, and blog post creation for registered users. 
+The target audience includes individuals who seek a versatile messaging platform with the ability to share thoughts, interact with others, and stay updated on local weather.
 
 
 
@@ -29,7 +41,7 @@ Post Management: Users have the ability to edit and delete their blog posts.
 Interaction: Users can engage with each other by liking posts and leaving comments.
 Text Messaging and Chats: Utilizes Google Firebase Database for text messaging and chat services.
 Security: Google Firebase Database ensures secure storage of blog posts, images, users, and messages.
-Customizable Theme: Default theme color is orange, with the option to switch to dark mode in device settings.
+Dark Theme available: Default theme color is orange, with the option to switch to dark mode in device settings.
 Photo Upload: Users can upload photos within text messaging chats.
 Text-to-Speech: A text-to-speech plugin is available for text messages, including group chats. Tap on any message to have it spoken aloud.
 Group Chats: Users can create group chats and add registered users. Group chat creators are automatically assigned as admins.
