@@ -78,6 +78,20 @@ Firebase Cloud Firestore - Chat Services
 Firebase Authentication
 And other Firebase Services.
 
+
+
+Known limitations and flaws:
+Flaw - Default theme when searching for registered users in chat does not display the written text. Shows up when host device uses dark mode,.
+Flaw - No push notifications are installed in the app. Local notifications show up frequently when opening the recipients chat room when the host user recieves a message recently.
+Flaw - Notifications only trigger within the chat room page and the group chat page. Disadvantage of using local notifications.
+Limitation - Viewing photos sent on chats cannot show images in full view. Instead, the sent image is shown in full view in chat bubbles anyway, even if it's a very high resolution photo.
+Limitation - default Theme is not customizable, dark theme only works when the host's device is in dark mode.
+Limitation - Changes of page themes is limited to the weather page, and will not change the overall theme color of the app.
+Limitation - Cannot send videos or other files, just images. Otherwise, the sent file is rendered useless for access. (You cannot download the file to use it, or cannot watch the sent video.)
+
+
+
+
 Login page:
 Upon launching the application, you will be directed to the login page.
 If you do not have an account, just tap the link:” Register here!”
