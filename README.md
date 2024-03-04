@@ -11,11 +11,11 @@ Bostjan Zymmer Rogero
 Jan Wayne Sepe
 
 Contributions:
-Andy - Plugins: tts, local notifications in a component file, low profile analyzer and debugger. Documentation and presentation initiator. -10%
+Andy - Plugins: tts, local notifications in a component file, low profile analyzer and debugger. Documentation, user manual and presentation initiator. -10%
 
 Jan Wayne -  The whole frontend and backend of the app including firebase services, realtime database and cloud firestore chat services..., debugger, superuser, Project initiator. -80%
 
-Bostjan - API host integrator, documentation. -10%
+Bostjan - Search features, API host integrator, documentation and user manual. -10%
 
 
 
