@@ -16,6 +16,14 @@ Sir Lester Pafin
 MarkDown file.
 March 2024
 
+
+
+Project Overview:
+The Messenger app is designed as a communication platform with integrated blogging features. Its primary purpose is to facilitate text messaging, group chats, and blog post creation for registered users. The target audience includes individuals who seek a versatile messaging platform with the ability to share thoughts, interact with others, and stay updated on local weather.
+
+
+
+
 Blog Post Creation: Registered users can create blog posts with an image, title, and description.
 Post Management: Users have the ability to edit and delete their blog posts.
 Interaction: Users can engage with each other by liking posts and leaving comments.
