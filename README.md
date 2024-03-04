@@ -16,18 +16,16 @@ Sir Lester Pafin
 MarkDown file.
 March 2024
 
-Registered users can create blog posts. Users must have an image, a title, and the description to post.
-Users can edit their post content.
-Users can delete their post.
-Users can interact with each other by leaving a like on one of the posts, or to leave a comment.
-Text messaging ang chats are utilized with Google Firebase Database - Chat Services.
-Security is within Google Firebase Database for storing blog posts, images, users, and messages.
-Theme is in orange by default, the theme color can be changed when enabling dark mode on the phone’ setting.
-Text messaging can also upload photos in chats.
-Text messaging chats including group chats has a text to speech plugin. Tap on every message to speak the message for you.
-Text to speech does not work on photos sent on every user.  
-Creating group chats is possible, group chat creator automatically assigned as admin. Add registered users in your group chat.
-Weather API is integrated into the app for weather updates in the city [Davao city].
+Blog Post Creation: Registered users can create blog posts with an image, title, and description.
+Post Management: Users have the ability to edit and delete their blog posts.
+Interaction: Users can engage with each other by liking posts and leaving comments.
+Text Messaging and Chats: Utilizes Google Firebase Database for text messaging and chat services.
+Security: Google Firebase Database ensures secure storage of blog posts, images, users, and messages.
+Customizable Theme: Default theme color is orange, with the option to switch to dark mode in device settings.
+Photo Upload: Users can upload photos within text messaging chats.
+Text-to-Speech: A text-to-speech plugin is available for text messages, including group chats. Tap on any message to have it spoken aloud.
+Group Chats: Users can create group chats and add registered users. Group chat creators are automatically assigned as admins.
+Weather Integration: The app integrates a Weather API to provide weather updates for Davao City.
 
 Features checklist:
 User Authentication and Authorization: Handled by Firebase Authentication
