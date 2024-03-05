@@ -179,13 +179,25 @@ A dialog box appears to confirm the user to log out.
 Tap on ‘Continue’ to proceed, otherwise tap on ‘Cancel’.
 This will direct the user to the login page.
 
+Video: https://drive.google.com/file/d/1GgVeSBqoKMrcTEYWisVzelXtrCGSa4c4/view?usp=sharing
+Timestamps:
+Introduction: 0:40
+User manual{
+Registration: 01:30
+Other's user profile page: 02:10
+Blog interaction: 02:48
+Upodate user profile information: 03:50
+Create new blog: 04:37
+Edit and delete blog: 05:00
+Private Chats: 05:37
+Group chats: 06:44
+Weather API: 07:41
+}
 
-Known limitations and flaws:
-Flaw - Default theme when searching for registered users in chat does not display the written text. Shows up when host device uses dark mode,.
-Flaw - No push notifications are installed in the app. Local notifications  show up frequently when opening the recipients chat room when the host user recieves a message recently.
-Flaw - Notifications only trigger within the chat room page and the group chat page. Disadvantage of using local notifications. 
-Limitation - Viewing photos sent on chats cannot show images in full view. Instead, the sent image is shown in full view in chat bubbles anyway, even if it's a very high resolution photo.
-Limitation - default Theme is not customizable, dark theme only works when the host's device is in dark mode. 
-Limitation - Changes of page themes is limited to the weather page, and will not change the overall theme color of the app. 
-Limitation - Cannot send videos or other files, just images. Otherwise, the sent file is rendered useless for access. (You cannot download the file to use it, or cannot watch the sent video.)
-
+Team contributions: 08:10
+Detailed overview: 10:52
+Key features checklist: 11:25
+Development stack: 13:43
+Flow of the program: 14:37
+Demonstration: 28:26
+Closing remarks: 40:13
