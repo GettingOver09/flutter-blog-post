@@ -36,58 +36,58 @@ The target audience includes individuals who seek a versatile messaging platform
 
 
 
-Blog Post Creation: Registered users can create blog posts with an image, title, and description.
-Post Management: Users have the ability to edit and delete their blog posts.
-Interaction: Users can engage with each other by liking posts and leaving comments.
-Text Messaging and Chats: Utilizes Google Firebase Database for text messaging and chat services.
-Security: Google Firebase Database ensures secure storage of blog posts, images, users, and messages.
-Dark Theme available: Default theme color is orange, with the option to switch to dark mode in device settings.
-Photo Upload: Users can upload photos within text messaging chats.
-Text-to-Speech: A text-to-speech plugin is available for text messages, including group chats. Tap on any message to have it spoken aloud.
-Group Chats: Users can create group chats and add registered users. Group chat creators are automatically assigned as admins.
-Weather Integration: The app integrates a Weather API to provide weather updates for Davao City.
+-Blog Post Creation: Registered users can create blog posts with an image, title, and description.
+-Post Management: Users have the ability to edit and delete their blog posts.
+-Interaction: Users can engage with each other by liking posts and leaving comments.
+-Text Messaging and Chats: Utilizes Google Firebase Database for text messaging and chat services.
+-Security: Google Firebase Database ensures secure storage of blog posts, images, users, and messages.
+-Dark Theme available: Default theme color is orange, with the option to switch to dark mode in device settings.
+-Photo Upload: Users can upload photos within text messaging chats.
+-Text-to-Speech: A text-to-speech plugin is available for text messages, including group chats. Tap on any message to have it spoken aloud.
+-Group Chats: Users can create group chats and add registered users. Group chat creators are automatically assigned as admins.
+-Weather Integration: The app integrates a Weather API to provide weather updates for Davao City.
 
 Features checklist:
-User Authentication and Authorization: Handled by Firebase Authentication
-Real-time messaging: Handled by Firebase Cloud Firestore - Chat services
-Group chats: Able to create and manage group chats
-Integration with External API:
-Internal: Utilizing Firebase services for fetching, and management of data.
-External: Open Weather API [openweathermap.org]
-Notifications: Triggered within the app itself in both chats. No real-time push notifications integrated in the app but only local notifications.
-Search functionality: Users can search for registered users for messaging.
-Profile management: Handled by Firebase Realtime Database, users can change their profile picture, their bio, and their username but not their email address.
-Security: All are handled by Firebase services. Passwords only accept 6-15 characters.
-User experience: Default theme can only be changed by the user's device by enabling global dark mode. For older android devices where some do not have a dark mode feature, only displays with the default orange theme.
-Page theme for weather updates changes in varied weather conditions.
-Weather temperature updates rapidly every minute.
-Theme colors exclusively apply to this page, and not on the whole application’s interface. (This also applies to devices with dark mode.)
+-User Authentication and Authorization: Handled by Firebase Authentication
+-Real-time messaging: Handled by Firebase Cloud Firestore - Chat services
+-Group chats: Able to create and manage group chats
+-Integration with External API:
+-Internal: Utilizing Firebase services for fetching, and management of data.
+-External: Open Weather API [openweathermap.org]
+-Notifications: Triggered within the app itself in both chats. No real-time push notifications integrated in the app but only local notifications.
+-Search functionality: Users can search for registered users for messaging.
+-Profile management: Handled by Firebase Realtime Database, users can change their profile picture, their bio, and their username but not their email address.
+-Security: All are handled by Firebase services. Passwords only accept 6-15 characters.
+-User experience: Default theme can only be changed by the user's device by enabling global dark mode. For older android devices where some do not have a dark mode feature, only displays with the default orange theme.
+-Page theme for weather updates changes in varied weather conditions.
+-Weather temperature updates rapidly every minute.
+-Theme colors exclusively apply to this page, and not on the whole application’s interface. (This also applies to devices with dark mode.)
 
 Plugins used:
-Flutter text to speech
-Flutter local notifications
+-Flutter text to speech
+-Flutter local notifications
 
 APIs used:
-OpenWeather API
+-OpenWeather API
 
 Databases used:
-Firebase Realtime Database
+-Firebase Realtime Database
 
 Crucial messaging services used in this project:
-Firebase Cloud Firestore - Chat Services
-Firebase Authentication
-And other Firebase Services.
+-Firebase Cloud Firestore - Chat Services
+-Firebase Authentication
+-And other Firebase Services.
 
 
 
 Known limitations and flaws:
-Flaw - Default theme when searching for registered users in chat does not display the written text. Shows up when host device uses dark mode,.
-Flaw - No push notifications are installed in the app. Local notifications show up frequently when opening the recipients chat room when the host user recieves a message recently.
-Flaw - Notifications only trigger within the chat room page and the group chat page. Disadvantage of using local notifications.
-Limitation - Viewing photos sent on chats cannot show images in full view. Instead, the sent image is shown in full view in chat bubbles anyway, even if it's a very high resolution photo.
-Limitation - default Theme is not customizable, dark theme only works when the host's device is in dark mode.
-Limitation - Changes of page themes is limited to the weather page, and will not change the overall theme color of the app.
-Limitation - Cannot send videos or other files, just images. Otherwise, the sent file is rendered useless for access. (You cannot download the file to use it, or cannot watch the sent video.)
+-Flaw - Default theme when searching for registered users in chat does not display the written text. Shows up when host device uses dark mode,.
+-Flaw - No push notifications are installed in the app. Local notifications show up frequently when opening the recipients chat room when the host user recieves a message recently.
+-Flaw - Notifications only trigger within the chat room page and the group chat page. Disadvantage of using local notifications.
+-Limitation - Viewing photos sent on chats cannot show images in full view. Instead, the sent image is shown in full view in chat bubbles anyway, even if it's a very high resolution photo.
+-Limitation - default Theme is not customizable, dark theme only works when the host's device is in dark mode.
+-Limitation - Changes of page themes is limited to the weather page, and will not change the overall theme color of the app.
+-Limitation - Cannot send videos or other files, just images. Otherwise, the sent file is rendered useless for access. (You cannot download the file to use it, or cannot watch the sent video.)
 
 
 
