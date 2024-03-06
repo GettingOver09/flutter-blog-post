@@ -203,8 +203,6 @@ Demonstration: 28:26
 Closing remarks: 40:13
 
 
-Use firebase account: https://firebase.google.com/docs/cli
-How to use 
-
+How to use Firebase and Utilize a project for use can be found here: https://firebase.google.com/docs/flutter/setup?platform=android
 
 
