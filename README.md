@@ -19,8 +19,6 @@ Bostjan - Search features, API host integrator, documentation and user manual.
 
 
 
-
-
 Instructor:
 Sir Lester Pafin
 
@@ -28,6 +26,7 @@ MarkDown file.
 March 2024
 
 
+How to use Firebase and Utilize a project for use can be found here: https://firebase.google.com/docs/flutter/setup?platform=android
 
 Project Overview:
 The Messenger app is designed as a communication platform with integrated blogging features. Its primary purpose is to facilitate text messaging, group chats, and blog post creation for registered users. 
@@ -203,6 +202,5 @@ Demonstration: 28:26
 Closing remarks: 40:13
 
 
-How to use Firebase and Utilize a project for use can be found here: https://firebase.google.com/docs/flutter/setup?platform=android
 
 
